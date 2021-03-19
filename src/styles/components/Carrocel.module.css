@@ -1,0 +1,78 @@
+.container{
+    display:1;
+    
+    justify-content: center;
+    align-items: center;
+    /* background: var(--accent); */
+    height:40rem;
+    width: 70rem;
+    margin: 5rem auto;
+}
+.cardContainer{
+    display: flex;
+    background: var(--accent);
+    flex-direction: column;
+    align-content: center;
+    width:60.75rem;
+    height: 31.25rem;
+    background:var(--white);
+    box-shadow: 0px 2px 16px rgba(32, 108, 164, 0.16);
+    border-radius: 8px;
+    justify-content: space-between; 
+    
+
+}
+.iconAndTitleContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 1rem auto;
+}
+.iconAndTitleContainer button >img{
+    width:1.7rem;
+    height: 1.7rem;
+}
+.cardContainer p{
+    padding-top:1.7rem;
+}
+.sliderContainer{
+    display:flex;
+    flex-direction: center;
+    width: 45rem;
+    height: 400px;
+    margin: 0px auto;
+    justify-content:center;
+    align-items:center;
+    align-content: center;
+    border: 3px;
+    border-radius: 5px solid yellowgreen;
+    gap:2rem
+}
+.userIdContainer  {
+   
+    margin-top: 5rem;
+    margin-bottom:1rem;
+    margin-left: 1rem;
+    align-items: center;
+}
+.userIdContainer div{
+    display: flex;
+    align-items: center
+}
+.text{
+    margin: 0rem 1rem auto;
+    color: var(--text);
+    font-family: Open Sans;
+}
+.imageBackground{
+    justify-content: center;
+    align-items: center;
+    border-radius:80%;
+    margin-right: 0.7rem;
+    width: 24px;
+    height: 24px;
+    background: var(--add-color-blue-light)
+}
+.userIdContainer span > span{
+    margin-top: 1rem;
+}

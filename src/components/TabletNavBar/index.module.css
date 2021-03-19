@@ -1,0 +1,103 @@
+.TabletNavLinks{
+   
+    height: 100%;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background:var(--white);  
+}
+.TabletNavContents{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+ 
+  /* margin: 0rem 5rem auto;  */
+    justify-content:center; 
+    position: sticky;
+   
+   
+   
+}
+.logoContainer{
+    margin-left: 1rem;
+}
+.rightGroupItems{
+    display: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-right: 1rem;
+    
+}
+.seachAndPhoneIconsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.searchIcon{
+
+}
+.phoneContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.phoneContainer >span{
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.linkContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.buttonsContainer{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 2rem;
+}
+.buttonsDownlod button{
+    height:2.18rem;
+    width: 7rem;
+    border:0px;
+    border-radius: 10px;
+    background: var(--accent);
+    color: var(--white);
+    font-size:0.93em;
+    font-family: Open Sans;
+    font-weight: bold;
+}
+.buttonsSigup button{
+    height:2.18rem;
+    width: 7rem;
+    border: 2px solid var(--text);
+    border-radius: 10px;
+    background: var(--white);
+    color: var(--text);
+    font-size:0.93em;
+    font-family: Open Sans;
+    font-weight: bold;
+}
+@media (min-width:768px) {
+    
+}
+
+.button{
+    background: var(--white);
+    width: 2rem;
+    height: 2rem;
+    border: 0;
+    border-radius: 1px ;
+    align-items: center;
+    justify-content: center;
+}

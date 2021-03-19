@@ -1,0 +1,147 @@
+.container{
+    margin-top:8rem;
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    background: #1C1E1F;;
+}
+.footerContent{
+    width: 66.9rem;
+    height: 20.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.contactContainer{
+    width: 12rem;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.cotactNumber span {
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 1rem;
+line-height: 1.125;
+color: #7E8183;
+}
+.cotactNumber p {
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 1rem;
+line-height: 1.125;
+color: #7E8183;
+}
+
+.contactContainer p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.125;
+    color: #7E8183;
+}
+
+.centralContainer{
+    display: flex;
+   width: 18rem;
+    height: 12rem;
+    justify-content: space-between;
+
+   
+}
+.linkContainer{
+    display: flex;
+  
+   flex-direction: column;
+}
+
+.leftLinkgroup{
+    
+    display: flex;
+  
+   flex-direction: column;
+}
+.linkContainer a{ 
+    margin-bottom: 1rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.125;
+    color: #7E8183;
+}
+.leftLinkgroup a{ 
+   margin-bottom: 1rem;
+   font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.125;
+    color: #7E8183;
+}
+.leftContent{
+    display: flex;
+   
+    width: 18rem;
+     height: 12rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.socialMedia img{
+    height: 3.2rem;
+    width: 3.2rem;
+    padding-left: 1rem;
+}
+
+.paymentMethods img{
+    height: 3.2rem;
+    width: 3.2rem;
+    padding-left: 1rem;
+}
+.protected span{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 19px;
+    color: #3A3A3A;
+}
+.protected p{
+    width: 6.2rem;
+    background: var(--gray-inline);
+    margin-left: 0.6rem;
+    color: #3A3A3A;
+}
+
+.protected{
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width:768px){
+    .footerContent{
+        display: flex; 
+        height: 100%;
+        margin: 5rem auto;
+    }
+    .tabletContainer{
+        gap: 2rem;
+       
+        padding-left: 5rem
+
+    }
+.container{
+      height: 100%;
+      
+    }
+}

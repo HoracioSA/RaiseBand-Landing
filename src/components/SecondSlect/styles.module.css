@@ -1,0 +1,39 @@
+
+ .selectBlock{
+    position: relative;
+}
+.selectBlock + .selectBlock{
+   margin-top: 1.4rem; 
+   color: var(--title);
+}
+.selectBlock label input{
+    font-size: 4.6rem;
+    color: var(--accent);
+}
+.selectBlock select{
+    width: 24.25rem;
+    height: 3.125rem;
+   
+    border-radius: 0.625rem;
+    background: var(--input-background);
+    box-shadow: 0px 1px 3px rgba(5, 41, 83, 0.14);
+    outline: 0;
+    border: 0;
+    padding: 0 1.6rem;
+    font: 1.6rem Roboto;
+}
+.selectBlock:focus-within::after{
+
+    width: calc(100% - 3.2rem);
+    height: 2px;
+    content: '';
+    background: var(--accent);
+    position: absolute;
+    left: 1.6rem;
+    right: 2.6rem;
+    bottom: 0;
+}
+.selectBlock select >option{
+    color: var(--accent);
+    font-size: 1.4rem;
+}

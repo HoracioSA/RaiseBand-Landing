@@ -1,0 +1,32 @@
+.input-block{
+    position: relative;
+}
+.inputBlock + .iinputBlock{
+   margin-top: 1.4rem; 
+}
+.inputBlock label{
+    font-size: 1.4rem;
+}
+.inputBlock input{
+    width: 11.25rem;
+    height: 3.125rem;
+    margin-top: 0.8rem;
+    border-radius: 0.625rem;
+    background: var(--input-background);
+    box-shadow: 0px 1px 3px rgba(5, 41, 83, 0.14);
+    outline: 0;
+    border: 0;
+    padding: 0 1.6rem;
+    font: 1.6rem Roboto,;
+}
+.inputBlock:focus-within::after{
+
+    width: calc(100% - 3.2rem);
+    height: 2px;
+    content: '';
+    background: var(--color-primary-light);
+    position: absolute;
+    left: 1.6rem;
+    right: 2.6rem;
+    bottom: 0;
+}
