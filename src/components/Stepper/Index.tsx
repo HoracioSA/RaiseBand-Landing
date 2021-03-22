@@ -11,11 +11,11 @@ export function Stepper(){
     function nextStepHandler(){
         setIsActive(true);
     }
-    useEffect(()=>{
-        if(isActive && nextStep >1){
-            setNextStep(nextStep + 1)
-        }
-    }, [isActive])
+    // useEffect(()=>{
+    //     if(isActive && nextStep >1){
+    //         setNextStep(nextStep + 1)
+    //     }
+    // }, [isActive])
     // Selected = Fill the input with color
     // Highlighted = to fiil the text with active color
 
